@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.box {
+    background-color: antiquewhite;
+    width: 500px;
+    margin: 10px;
+    border: 1px solid lightgray;
+}
+.container div:nth-child(2) {
+    background-color: aliceblue;
+}
+@media screen and (min-width: 500px) {
+    .container {
+        flex-direction: row;
+    }
+    
+}
+@media screen and (min-width: 900px) {
+    .box {
+        background-color: blue;
+        color: white;
+    }
+    .container div:nth-child(2) {
+        color:black
+    }
+
+}
