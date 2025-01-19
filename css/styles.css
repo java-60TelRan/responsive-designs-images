@@ -1,6 +1,3 @@
-.meal {
-  clip-path: polygon(0% 20%, 36% 12%, 43% 53%, 100% 50%, 60% 100%, 44% 85%, 0% 80%);
-  background-color: aquamarine;
-  width: 500px;
-  height: 500px
+.meal:hover {
+  filter: blur(5px);
 }
